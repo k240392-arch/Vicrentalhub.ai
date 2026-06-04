@@ -1,0 +1,1 @@
+"""VicRentalHub backend application."""

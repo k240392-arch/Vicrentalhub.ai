@@ -1,0 +1,50 @@
+# ── Environment variables (NEVER commit these) ────────────────────────
+.env
+.env.local
+.env.production
+.env.*
+
+# ── Database ──────────────────────────────────────────────────────────
+data/*.db
+data/*.sqlite
+*.db
+*.sqlite3
+
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# ── Node / Frontend ───────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+.npm/
+*.log
+npm-debug.log*
+
+# ── Mac ───────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# ── IDE ───────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── PDF outputs ───────────────────────────────────────────────────────
+data/reports/
+*.pdf
